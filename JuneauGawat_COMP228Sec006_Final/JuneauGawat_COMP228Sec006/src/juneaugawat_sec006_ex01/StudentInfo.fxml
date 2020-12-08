@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="217.0" prefWidth="675.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="juneaugawat_sec006_ex01.StudentInfoController">
+   <children>
+      <Label fx:id="infoLabel" layoutX="24.0" layoutY="34.0" prefHeight="32.0" prefWidth="183.0" text="Select Students by city:">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <TextField fx:id="userCityInputTextArea" layoutX="440.0" layoutY="27.0" prefHeight="32.0" prefWidth="208.0" />
+      <Button fx:id="displayButton" layoutX="440.0" layoutY="65.0" mnemonicParsing="false" onAction="#onDisplayButtonClick" prefHeight="32.0" prefWidth="208.0" text="Display" />
+      <ListView fx:id="studentListView" layoutX="2.0" layoutY="103.0" prefHeight="113.0" prefWidth="669.0" />
+      <Label fx:id="infoLabel1" layoutX="24.0" layoutY="65.0" prefHeight="32.0" prefWidth="183.0" text="Case sensitive (Toronto)">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>
